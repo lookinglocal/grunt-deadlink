@@ -2,25 +2,24 @@
   "name": "grunt-deadlink",
   "description": "check dead links in files",
   "version": "0.1.4",
-  "homepage": "https://github.com/lnyarl/grunt-deadlink",
-  "author": "yongjae choi <lnyarl@gmail.com>",
+  "homepage": "https://github.com/lookinglocal/grunt-deadlink",
+  "author": "yongjae choi <lookinglocal@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lnyarl/grunt-deadlink.git"
+    "url": "git://github.com/lookinglocal/grunt-deadlink.git"
   },
   "bugs": {
-    "url": "https://github.com/lnyarl/grunt-deadlink/issues"
+    "url": "https://github.com/lookinglocal/grunt-deadlink/issues"
   },
   "main": "Gruntfile.js",
   "engines": {
     "node": ">= 0.8.0"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-clean": "~0.4.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
     "grunt": "~0.4.1",
-    "request": "~2.27.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.1",
     "grunt-contrib-coffee": "~0.7.0"
   },
   "peerDependencies": {
@@ -30,13 +29,6 @@
     "gruntplugin",
     "deadlink"
   ],
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.1",
-    "grunt-contrib-coffee": "~0.7.0"
-  },
   "dependencies": {
     "request": "~2.27.0",
     "progress": "~1.1.2"
